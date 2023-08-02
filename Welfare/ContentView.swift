@@ -1,6 +1,6 @@
 //
 //  ContentView.swift
-//  WelfareApp
+//  Welfare
 //
 //  Created by Paola Golombieski Ciarcia on 02/08/23.
 //
