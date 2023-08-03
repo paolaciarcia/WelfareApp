@@ -13,6 +13,9 @@
 		C55CFB692A7AE9FC00659682 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C55CFB682A7AE9FC00659682 /* Preview Assets.xcassets */; };
 		C55CFB792A7AECC500659682 /* chimeup.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = C55CFB772A7AECB200659682 /* chimeup.mp3 */; };
 		C55CFB7A2A7AECC900659682 /* success.m4a in Resources */ = {isa = PBXBuildFile; fileRef = C55CFB782A7AECB200659682 /* success.m4a */; };
+		C55CFB7F2A7AF3CE00659682 /* OnboardingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C55CFB7E2A7AF3CE00659682 /* OnboardingView.swift */; };
+		C55CFB812A7AF3DA00659682 /* HomeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C55CFB802A7AF3DA00659682 /* HomeView.swift */; };
+		C58E3C932A7BF2C70035A8AD /* ColorExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = C58E3C922A7BF2C70035A8AD /* ColorExtension.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +27,9 @@
 		C55CFB772A7AECB200659682 /* chimeup.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = chimeup.mp3; sourceTree = "<group>"; };
 		C55CFB782A7AECB200659682 /* success.m4a */ = {isa = PBXFileReference; lastKnownFileType = file; path = success.m4a; sourceTree = "<group>"; };
 		C55CFB7D2A7AF22A00659682 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = Info.plist; sourceTree = "<group>"; };
+		C55CFB7E2A7AF3CE00659682 /* OnboardingView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = OnboardingView.swift; path = ../../../OnboardingView.swift; sourceTree = "<group>"; };
+		C55CFB802A7AF3DA00659682 /* HomeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeView.swift; sourceTree = "<group>"; };
+		C58E3C922A7BF2C70035A8AD /* ColorExtension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ColorExtension.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -88,6 +94,8 @@
 			isa = PBXGroup;
 			children = (
 				C55CFB632A7AE9FB00659682 /* ContentView.swift */,
+				C55CFB7E2A7AF3CE00659682 /* OnboardingView.swift */,
+				C55CFB802A7AF3DA00659682 /* HomeView.swift */,
 			);
 			path = Screens;
 			sourceTree = "<group>";
@@ -95,6 +103,7 @@
 		C55CFB7C2A7AF06E00659682 /* Utilities */ = {
 			isa = PBXGroup;
 			children = (
+				C58E3C922A7BF2C70035A8AD /* ColorExtension.swift */,
 			);
 			path = Utilities;
 			sourceTree = "<group>";
@@ -171,8 +180,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				C55CFB7F2A7AF3CE00659682 /* OnboardingView.swift in Sources */,
+				C55CFB812A7AF3DA00659682 /* HomeView.swift in Sources */,
 				C55CFB642A7AE9FB00659682 /* ContentView.swift in Sources */,
 				C55CFB622A7AE9FB00659682 /* WelfareApp.swift in Sources */,
+				C58E3C932A7BF2C70035A8AD /* ColorExtension.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
