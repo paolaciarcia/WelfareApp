@@ -16,13 +16,7 @@ struct HomeView: View {
             Spacer()
             VStack(spacing: 35) {
                 ZStack {
-                    Circle()
-                        .stroke(.gray.opacity(0.1), lineWidth: 40)
-                        .frame(width: 260, height: 260, alignment: .center)
-
-                    Circle()
-                        .stroke(.gray.opacity(0.1), lineWidth: 80)
-                        .frame(width: 260, height: 260, alignment: .center)
+                    CircleGroupView(circleColor: .gray, opacity: 0.1)
 
                     Image("character-2")
                         .resizable()

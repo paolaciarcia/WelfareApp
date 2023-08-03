@@ -16,6 +16,7 @@
 		C55CFB7F2A7AF3CE00659682 /* OnboardingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C55CFB7E2A7AF3CE00659682 /* OnboardingView.swift */; };
 		C55CFB812A7AF3DA00659682 /* HomeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C55CFB802A7AF3DA00659682 /* HomeView.swift */; };
 		C58E3C932A7BF2C70035A8AD /* ColorExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = C58E3C922A7BF2C70035A8AD /* ColorExtension.swift */; };
+		C58E3C992A7C2A0A0035A8AD /* CircleGroupView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C58E3C982A7C2A0A0035A8AD /* CircleGroupView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -30,6 +31,7 @@
 		C55CFB7E2A7AF3CE00659682 /* OnboardingView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = OnboardingView.swift; path = ../../../OnboardingView.swift; sourceTree = "<group>"; };
 		C55CFB802A7AF3DA00659682 /* HomeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeView.swift; sourceTree = "<group>"; };
 		C58E3C922A7BF2C70035A8AD /* ColorExtension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ColorExtension.swift; sourceTree = "<group>"; };
+		C58E3C982A7C2A0A0035A8AD /* CircleGroupView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CircleGroupView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -62,6 +64,7 @@
 		C55CFB602A7AE9FB00659682 /* Welfare */ = {
 			isa = PBXGroup;
 			children = (
+				C58E3C972A7C29EA0035A8AD /* Components */,
 				C55CFB7D2A7AF22A00659682 /* Info.plist */,
 				C55CFB7C2A7AF06E00659682 /* Utilities */,
 				C55CFB732A7AEC7A00659682 /* Sounds */,
@@ -106,6 +109,14 @@
 				C58E3C922A7BF2C70035A8AD /* ColorExtension.swift */,
 			);
 			path = Utilities;
+			sourceTree = "<group>";
+		};
+		C58E3C972A7C29EA0035A8AD /* Components */ = {
+			isa = PBXGroup;
+			children = (
+				C58E3C982A7C2A0A0035A8AD /* CircleGroupView.swift */,
+			);
+			path = Components;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -184,6 +195,7 @@
 				C55CFB812A7AF3DA00659682 /* HomeView.swift in Sources */,
 				C55CFB642A7AE9FB00659682 /* ContentView.swift in Sources */,
 				C55CFB622A7AE9FB00659682 /* WelfareApp.swift in Sources */,
+				C58E3C992A7C2A0A0035A8AD /* CircleGroupView.swift in Sources */,
 				C58E3C932A7BF2C70035A8AD /* ColorExtension.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
