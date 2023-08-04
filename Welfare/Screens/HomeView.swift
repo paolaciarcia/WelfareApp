@@ -10,6 +10,7 @@ import SwiftUI
 struct HomeView: View {
     //UserDefaults and UserDefaults key
     @AppStorage("onboarding") var isOnboardingViewActive = false
+    @State var isAnimating = false
 
     var body: some View {
         VStack {
@@ -21,6 +22,9 @@ struct HomeView: View {
                     Image("character-2")
                         .resizable()
                         .scaledToFit()
+                        .offset(y: isAnimating ? 35 : -35)
+                        .animation(.easeInOut(duration: 4).repeatForever(),
+                                   value: isAnimating)
                 }
 
                 Text("The time that leads to mastery is \ndependent on the intensity of our focus")
@@ -47,6 +51,9 @@ struct HomeView: View {
             .controlSize(.large)
         }
         .padding()
+        .onAppear {
+            isAnimating = true
+        }
     }
 }
 
