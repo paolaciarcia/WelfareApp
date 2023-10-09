@@ -7,13 +7,13 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		C55525EB2AD4609800588534 /* OnboardingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C55525EA2AD4609800588534 /* OnboardingView.swift */; };
 		C55CFB622A7AE9FB00659682 /* WelfareApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = C55CFB612A7AE9FB00659682 /* WelfareApp.swift */; };
 		C55CFB642A7AE9FB00659682 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C55CFB632A7AE9FB00659682 /* ContentView.swift */; };
 		C55CFB662A7AE9FC00659682 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C55CFB652A7AE9FC00659682 /* Assets.xcassets */; };
 		C55CFB692A7AE9FC00659682 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C55CFB682A7AE9FC00659682 /* Preview Assets.xcassets */; };
 		C55CFB792A7AECC500659682 /* chimeup.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = C55CFB772A7AECB200659682 /* chimeup.mp3 */; };
 		C55CFB7A2A7AECC900659682 /* success.m4a in Resources */ = {isa = PBXBuildFile; fileRef = C55CFB782A7AECB200659682 /* success.m4a */; };
-		C55CFB7F2A7AF3CE00659682 /* OnboardingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C55CFB7E2A7AF3CE00659682 /* OnboardingView.swift */; };
 		C55CFB812A7AF3DA00659682 /* HomeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C55CFB802A7AF3DA00659682 /* HomeView.swift */; };
 		C58E3C932A7BF2C70035A8AD /* ColorExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = C58E3C922A7BF2C70035A8AD /* ColorExtension.swift */; };
 		C58E3C992A7C2A0A0035A8AD /* CircleGroupView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C58E3C982A7C2A0A0035A8AD /* CircleGroupView.swift */; };
@@ -21,6 +21,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		C55525EA2AD4609800588534 /* OnboardingView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = OnboardingView.swift; sourceTree = "<group>"; };
 		C55CFB5E2A7AE9FB00659682 /* Welfare.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Welfare.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		C55CFB612A7AE9FB00659682 /* WelfareApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WelfareApp.swift; sourceTree = "<group>"; };
 		C55CFB632A7AE9FB00659682 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -29,7 +30,6 @@
 		C55CFB772A7AECB200659682 /* chimeup.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = chimeup.mp3; sourceTree = "<group>"; };
 		C55CFB782A7AECB200659682 /* success.m4a */ = {isa = PBXFileReference; lastKnownFileType = file; path = success.m4a; sourceTree = "<group>"; };
 		C55CFB7D2A7AF22A00659682 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = Info.plist; sourceTree = "<group>"; };
-		C55CFB7E2A7AF3CE00659682 /* OnboardingView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = OnboardingView.swift; path = ../../../OnboardingView.swift; sourceTree = "<group>"; };
 		C55CFB802A7AF3DA00659682 /* HomeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeView.swift; sourceTree = "<group>"; };
 		C58E3C922A7BF2C70035A8AD /* ColorExtension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ColorExtension.swift; sourceTree = "<group>"; };
 		C58E3C982A7C2A0A0035A8AD /* CircleGroupView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CircleGroupView.swift; sourceTree = "<group>"; };
@@ -99,7 +99,7 @@
 			isa = PBXGroup;
 			children = (
 				C55CFB632A7AE9FB00659682 /* ContentView.swift */,
-				C55CFB7E2A7AF3CE00659682 /* OnboardingView.swift */,
+				C55525EA2AD4609800588534 /* OnboardingView.swift */,
 				C55CFB802A7AF3DA00659682 /* HomeView.swift */,
 			);
 			path = Screens;
@@ -194,13 +194,13 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				C55CFB7F2A7AF3CE00659682 /* OnboardingView.swift in Sources */,
 				C55CFB812A7AF3DA00659682 /* HomeView.swift in Sources */,
 				C55CFB642A7AE9FB00659682 /* ContentView.swift in Sources */,
 				C55CFB622A7AE9FB00659682 /* WelfareApp.swift in Sources */,
 				C58E3C992A7C2A0A0035A8AD /* CircleGroupView.swift in Sources */,
 				C58E3C932A7BF2C70035A8AD /* ColorExtension.swift in Sources */,
 				C58E3C9E2A7D63490035A8AD /* AudioPlayer.swift in Sources */,
+				C55525EB2AD4609800588534 /* OnboardingView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
